@@ -1,5 +1,4 @@
 <x-guest-layout>
-    @livewire('slider')
-    
+    @livewire('slider')    
     <x-bienvenida/>
 </x-guest-layout>

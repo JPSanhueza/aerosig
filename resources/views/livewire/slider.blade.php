@@ -30,7 +30,7 @@
             <div class="relative text-3xl lg:text-5xl text-center" id="titulo"> 
                 <h1 class="text-white text-4xl sm:text-7xl">
                     <span class="bg-gray-900-70 p-4 font-bold">SOLUCIONES RPAS <br>
-                        <span class="text-sm sm:text-3xl text-center">19 Años de experiencia en el rubro</span> <br>
+                        <span class="text-sm sm:text-3xl text-center">22 Años de experiencia en el rubro</span> <br>
                         {{-- <span class="font-bold text-sm sm:text-xl font-racing">Somos un equipo de ingenieros con 18 años de experiencia en los rubros, topográficos, Cartográficos, Agrícolas y Forestal.  </span> --}}
                     </span>
                 </h1>
