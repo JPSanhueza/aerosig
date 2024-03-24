@@ -1,0 +1,7 @@
+models:
+  ImageCarousel:
+    id: id
+    image: string:60
+    image_responsive: string:60    
+    order: integer    
+    timestamps: true 

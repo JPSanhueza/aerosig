@@ -1,0 +1,1 @@
+<img class="w-36" src="{{asset('img/logo-aerosig-blanco-1-300x124.png')}}" alt="">
