@@ -26,11 +26,11 @@
             </svg>
         </div>
     </div>
-     <div class="absolute w-full top-[50%] sm:top-[40%] px-11 ">
-            <div class="relative text-sm lg:text-5xl text-center" id="titulo"> 
-                <h1 class="text-white text-sm sm:text-7xl">
-                    <span class="bg-gray-900-70 p-4">SOLUCIONES RPAS <br>
-                        <span class="font-bold text-sm sm:text-3xl font-racing">19 Años de experiencia en el rubro</span> <br>
+     <div class="absolute w-full top-[40%] sm:top-[40%] sm:px-11 ">
+            <div class="relative text-3xl lg:text-5xl text-center" id="titulo"> 
+                <h1 class="text-white text-4xl sm:text-7xl">
+                    <span class="bg-gray-900-70 p-4 font-bold">SOLUCIONES RPAS <br>
+                        <span class="text-sm sm:text-3xl text-center">19 Años de experiencia en el rubro</span> <br>
                         {{-- <span class="font-bold text-sm sm:text-xl font-racing">Somos un equipo de ingenieros con 18 años de experiencia en los rubros, topográficos, Cartográficos, Agrícolas y Forestal.  </span> --}}
                     </span>
                 </h1>
