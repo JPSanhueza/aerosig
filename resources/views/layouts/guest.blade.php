@@ -22,6 +22,7 @@
             @livewire('navigation-menu')
             {{ $slot }}
         </div>
+        <x-footer/>
 
         @livewireScripts
         <script src="{{asset('js/main.js')}} "> </script>

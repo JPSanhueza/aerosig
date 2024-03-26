@@ -1,7 +1,8 @@
 created:
-    - database/factories/ImageCarouselFactory.php
-    - database/migrations/2024_03_24_140406_create_image_carousels_table.php
-    - app/Models/ImageCarousel.php
+    - database/factories/ServiceFactory.php
+    - database/migrations/2024_03_26_183705_create_services_table.php
+    - app/Models/Service.php
 models:
     User: { name: string, email: string, email_verified_at: 'timestamp nullable', password: string, remember_token: 'string:100 nullable' }
     ImageCarousel: { id: id, image: 'string:60', image_responsive: 'string:60', order: integer, timestamps: true }
+    Service: { image: 'string:60', name: 'string:100', description: 'string:400' }

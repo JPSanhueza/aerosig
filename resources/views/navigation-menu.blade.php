@@ -1,4 +1,8 @@
-<nav x-data="{ open: false }" class="bg-white/0 fixed top-0 left-0 w-full z-10 ">
+{{-- <nav x-data="{ open: false }" class="bg-white/0 fixed top-0 left-0 w-full z-10 "> --}}
+<nav x-data="{ open: false, scrolled: false }" 
+    :class="{'bg-white/0': !scrolled, 'bg-[#2E332C]/50': scrolled}" 
+    class="fixed top-0 left-0 w-full z-10 transition-colors duration-300" 
+    @scroll.window="scrolled = (window.pageYOffset > 50 ? true : false)">
     <!-- Primary Navigation Menu -->
     <div class="mx-auto px-4 sm:px-6 lg:px-8 w-full  ">
         <div class="flex justify-between h-16 w-full">
