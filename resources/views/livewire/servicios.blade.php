@@ -1,6 +1,8 @@
 <div class="py-20 text-gray-700 bg-white " id="servicios">
     <h2 class="mb-12 text-4xl text-center font-bold sm:text-5xl">{{__('NUESTROS SERVICIOS')}}</h2>
     <div class="sm:mx-auto  sm:px-6 lg:px-8">
+
+        <p class="pb-7"> Un equipo LiDAR aerotransportado puede realizar una variedad de servicios, incluyendo: </p>
       
         @foreach($services as $service)
             <div class="bg-white rounded-sm dark:bg-gray-900 w-full flex flex-col sm:flex-row border-gray-100 border-[1px] mb-3">

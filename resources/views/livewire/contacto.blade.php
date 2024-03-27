@@ -1,4 +1,4 @@
-<div class="pb-20 text-gray-900 bg-white dark:bg-gray-800 dark:text-gray-300" id="contacto">
+<div class="pb-20 text-gray-900 bg-white" id="contacto">
     <h2 class="text-5xl font-bold text-center mb-7 pt-20 pb-7">{{__('CONTACTO')}}</h2>
     <div class="grid items-center justify-center grid-cols-1 mx-auto sm:grid-cols-2 max-w-7xl sm:px-6 lg:px-8">
 
@@ -18,7 +18,7 @@
                   <strong>WhatsApp:</strong> {{__('Haz clic en el botón de WhatsApp en la esquina inferior derecha para chatear con nosotros.')}} 
               </li>
               <li>
-                  <strong>{{__('Teléfono o Email')}}:</strong> {{__('Llámanos al')}} <a href="tel:+569 7970 8737" class="text-green-900 hover:text-orange-900 dark:text-orange-atiye">+56 9 7970 8737</a> {{__('o escríbenos a')}} <a href="mailto:paguila@aerosig.cl" class="text-green-900 hover:text-orange-800 dark:text-orange-atiye">paguila@aerosig.cl</a>.
+                  <strong>{{__('Teléfono o Email')}}:</strong> {{__('Llámanos al')}} <a href="tel:+569 7970 8737" class="text-green-900 hover:text-orange-900 ">+56 9 7970 8737</a> {{__('o escríbenos a')}} <a href="mailto:paguila@aerosig.cl" class="text-green-900 hover:text-orange-800">paguila@aerosig.cl</a>.
               </li>
           </ul>
           

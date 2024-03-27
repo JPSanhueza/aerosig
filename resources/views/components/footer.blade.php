@@ -13,7 +13,7 @@
 		</div>
 		<div class="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
 			<div class="space-y-3">
-				<h3 class="tracking-wide uppercase dark:text-gray-900">CONTACTO</h3>
+				<h3 class="tracking-wide uppercase">CONTACTO</h3>
 				<ul class="space-y-1">
 					<li>
 						<a rel="noopener noreferrer" href="#">Pedro Aguila</a>
@@ -30,7 +30,7 @@
 				</ul>
 			</div>
 			<div class="space-y-3">
-				<h3 class="tracking-wide uppercase dark:text-gray-900">Contacto</h3>
+				<h3 class="tracking-wide uppercase">Contacto</h3>
 				<ul class="space-y-1">
 					<li>
 						<a rel="noopener noreferrer" href="#">Franco Maraboli</a>
@@ -44,7 +44,7 @@
 				</ul>
 			</div>
 			<div class="space-y-3">
-				<h3 class="uppercase dark:text-gray-900">Secciones</h3>
+				<h3 class="uppercase">Secciones</h3>
 				<ul class="space-y-1">
 					<li>
 						<a rel="noopener noreferrer" href="#">Nuestros Equipos</a>
@@ -79,5 +79,5 @@
 			</div>
 		</div>
 	</div>
-	<div class="py-6 text-sm text-center dark:text-gray-600">© 2024 Aerosig SpA. Todos los derechos reservados.</div>
+	<div class="py-6 text-sm text-center">© 2024 Aerosig SpA. Todos los derechos reservados.</div>
 </footer>
