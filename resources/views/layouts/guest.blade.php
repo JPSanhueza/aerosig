@@ -20,6 +20,9 @@
     <body>
         <div class="font-sans text-gray-900 antialiased">
             @livewire('navigation-menu')
+            <a class="fixed z-30 bottom-7 right-8 shadow-lime-900" href="https://api.whatsapp.com/send?phone=56996822992" target="_blank" rel="noopener">
+                <img src="{{ asset('/img/whatsapp.png') }}" width="64px" height="64px" alt="icono">
+            </a>
             {{ $slot }}
         </div>
         <x-footer/>

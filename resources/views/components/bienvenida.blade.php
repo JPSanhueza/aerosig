@@ -1,4 +1,4 @@
-<div class="w-full py-16 bg-gray-100">
+<div class="w-full py-16 bg-gray-100" id="nosotros">
     <div class="flex justify-center">
         <img  src="{{asset('img/logo-aerosig-1.png')}}" alt="">
         

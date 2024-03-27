@@ -13,44 +13,47 @@
 		</div>
 		<div class="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
 			<div class="space-y-3">
-				<h3 class="tracking-wide uppercase dark:text-gray-900">Product</h3>
+				<h3 class="tracking-wide uppercase dark:text-gray-900">CONTACTO</h3>
 				<ul class="space-y-1">
 					<li>
-						<a rel="noopener noreferrer" href="#">Features</a>
+						<a rel="noopener noreferrer" href="#">Pedro Aguila</a>
 					</li>
 					<li>
-						<a rel="noopener noreferrer" href="#">Integrations</a>
+						<a rel="noopener noreferrer" href="#">paguila@aerosig.cl</a>
 					</li>
 					<li>
-						<a rel="noopener noreferrer" href="#">Pricing</a>
+						<a rel="noopener noreferrer" href="#">+56 9 7777 7777</a>
 					</li>
-					<li>
+					{{-- <li>
 						<a rel="noopener noreferrer" href="#">FAQ</a>
+					</li> --}}
+				</ul>
+			</div>
+			<div class="space-y-3">
+				<h3 class="tracking-wide uppercase dark:text-gray-900">Contacto</h3>
+				<ul class="space-y-1">
+					<li>
+						<a rel="noopener noreferrer" href="#">Franco Maraboli</a>
+					</li>
+					<li>
+						<a rel="noopener noreferrer" href="#">paguila@aerosig.cl</a>
+					</li>
+					<li>
+						<a rel="noopener noreferrer" href="#">+56 9 8765 4321</a>
 					</li>
 				</ul>
 			</div>
 			<div class="space-y-3">
-				<h3 class="tracking-wide uppercase dark:text-gray-900">Company</h3>
+				<h3 class="uppercase dark:text-gray-900">Secciones</h3>
 				<ul class="space-y-1">
 					<li>
-						<a rel="noopener noreferrer" href="#">Privacy</a>
+						<a rel="noopener noreferrer" href="#">Nuestros Equipos</a>
 					</li>
 					<li>
-						<a rel="noopener noreferrer" href="#">Terms of Service</a>
-					</li>
-				</ul>
-			</div>
-			<div class="space-y-3">
-				<h3 class="uppercase dark:text-gray-900">Developers</h3>
-				<ul class="space-y-1">
-					<li>
-						<a rel="noopener noreferrer" href="#">Public API</a>
+						<a rel="noopener noreferrer" href="#">Nuestros Servicios</a>
 					</li>
 					<li>
-						<a rel="noopener noreferrer" href="#">Documentation</a>
-					</li>
-					<li>
-						<a rel="noopener noreferrer" href="#">Guides</a>
+						<a rel="noopener noreferrer" href="#">Galería</a>
 					</li>
 				</ul>
 			</div>
@@ -76,5 +79,5 @@
 			</div>
 		</div>
 	</div>
-	<div class="py-6 text-sm text-center dark:text-gray-600">© 2024 Company Co. Todos los derechos reservados.</div>
+	<div class="py-6 text-sm text-center dark:text-gray-600">© 2024 Aerosig SpA. Todos los derechos reservados.</div>
 </footer>

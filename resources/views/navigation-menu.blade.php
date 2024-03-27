@@ -1,6 +1,6 @@
 {{-- <nav x-data="{ open: false }" class="bg-white/0 fixed top-0 left-0 w-full z-10 "> --}}
 <nav x-data="{ open: false, scrolled: false }" 
-    :class="{'bg-white/0': !scrolled, 'bg-[#2E332C]/50': scrolled}" 
+    :class="{'bg-white/0': !scrolled, 'bg-[#2E332C]/80': scrolled}" 
     class="fixed top-0 left-0 w-full z-10 transition-colors duration-300" 
     @scroll.window="scrolled = (window.pageYOffset > 50 ? true : false)">
     <!-- Primary Navigation Menu -->
@@ -16,33 +16,33 @@
                 <div class=" w-full flex justify-end">
                     <!-- Navigation Links -->
                     <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                        <x-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('welcome')">
+                        <x-nav-link href="{{ route('welcome') }}" :active="request()->routeIs('welcome')">
                             {{ __('Inicio') }}
                         </x-nav-link>
                     </div>
                     <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                        <x-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('welcome')">
+                        <x-nav-link href="{{ url('/#nosotros') }}" :active="request()->routeIs('welcome')">
                             {{ __('Nosotros') }}
                         </x-nav-link>
                     </div>
                     <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                        <x-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
-                            {{ __('Dashboard') }}
+                        <x-nav-link href="{{ url('/#equipo') }}" :active="request()->routeIs('dashboard')">
+                            {{ __('Equipos') }}
                         </x-nav-link>
                     </div>
                     <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                        <x-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
-                            {{ __('Dashboard') }}
+                        <x-nav-link href="{{ url('/#servicios') }}" :active="request()->routeIs('dashboard')">
+                            {{ __('Servicios') }}
                         </x-nav-link>
                     </div>
                     <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                        <x-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
-                            {{ __('Dashboard') }}
+                        <x-nav-link href="{{ url('/#galeria') }}" :active="request()->routeIs('dashboard')">
+                            {{ __('Galería') }}
                         </x-nav-link>
                     </div>
                     <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                        <x-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
-                            {{ __('Dashboard') }}
+                        <x-nav-link href="{{ url('/#contacto') }}" :active="request()->routeIs('dashboard')">
+                            {{ __('Contacto') }}
                         </x-nav-link>
                     </div>
                 </div>
@@ -67,6 +67,21 @@
         <div class="pt-2 pb-3 space-y-1">
             <x-responsive-nav-link href="{{ route('welcome') }}" :active="request()->routeIs('')">
                 {{ __('Inicio') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link href="{{ url('/#nosotros') }}" :active="request()->routeIs('')">
+                {{ __('Nosotros') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link href="{{ url('/#equipo') }}" :active="request()->routeIs('')">
+                {{ __('Equipos') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link href="{{ url('/#servicios') }}" :active="request()->routeIs('')">
+                {{ __('Servicios') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link href="{{ url('/#galeria') }}" :active="request()->routeIs('')">
+                {{ __('Galería') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link href="{{ url('/#contacto') }}" :active="request()->routeIs('')">
+                {{ __('Contacto') }}
             </x-responsive-nav-link>
         </div>
 

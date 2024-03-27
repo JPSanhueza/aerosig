@@ -1,4 +1,4 @@
-<div class="w-full flex" id="equipos">
+<div class="w-full flex" id="equipo">
     <div class="bg-gradient-to-r from-[#3C4D31] to-[#4C663C] py-20 pl-7  w-full">
         <p class="text-5xl text-white font-semibold pb-7 text-center ">NUESTROS EQUIPOS</p>
 
